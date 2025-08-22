@@ -46,7 +46,7 @@ body  {
 		var(--duration) * 1.25
 	); /* delay before revealing card */
 
-	--letter-height: calc(var(--envelope-height) - 2rem);
+	--letter-height: calc(var(--envelope-height) - 8rem);
 	--letter-height-hover: calc(var(--envelope-height) * 1.75);
 
 	--fold-rotate: rotateX(0deg);
@@ -187,7 +187,7 @@ body  {
 
 .letter {
 	position: absolute;
-	bottom: 5px;
+	bottom: 100px;
 	left: 50%;
 	width: 90%;
 	height: var(--letter-height);
